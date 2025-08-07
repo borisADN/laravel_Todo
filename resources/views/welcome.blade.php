@@ -9,13 +9,19 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
+<link href="https://fonts.bunny.net/css?family=baloo-2:400,500,600,700,800" rel="stylesheet" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
 
 
 </head>
 
+
+<style>
+    body {
+ font-family: 'Baloo 2', 'sans-serif';
+  font-weight: 400; /* ou 500, 600, 700 selon ton besoin */
+}
+</style>
 <body class="bg-gray-200 p-4">
     <div class="lg:w-2/4 mx-auto py-8 px-6 bg-white rounded-xl">
         <h1 class="font-bold text-5xl text-center mb-8">Laravel + Tailwind</h1>
